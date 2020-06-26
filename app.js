@@ -48,7 +48,7 @@ function render() {
             <td>${product.name}</td>
             <td>${product.sku}</td>
             <td>${product.price}</td>
-            <td><button class="js-btn-delete btn btn-danger">X</button></td>
+            <td><button class="js-btn-delete btn btn-danger float-right">X</button></td>
         </tr>
     `);
   }
